@@ -1,11 +1,36 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
   <!-- Base application theme. -->
   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
     <!-- Customize your theme here. -->
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorPrimary">@color/colorDark</item>
+    <item name="colorPrimaryDark">@color/colorGrey</item>
+    <item name="colorAccent">@color/colorLightGrey</item>
   </style>
+
+  <style name="PriceText" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorBlue</item>
+    <item name="android:textSize">18dp</item>
+    <item name="app:fontFamily">@font/apercu_regular_pro</item>
+  </style>
+
+  <style name="TitleCardText" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorDark</item>
+    <item name="android:textSize">22dp</item>
+    <item name="app:fontFamily">@font/apercu_bold_pro</item>
+  </style>
+
+  <style name="SubTitleCardText" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorLightGrey</item>
+    <item name="android:textSize">20dp</item>
+    <item name="app:fontFamily">@font/apercu_regular_pro</item>
+  </style>
+
+  <style name="HourText" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorGrey</item>
+    <item name="android:textSize">18dp</item>
+    <item name="app:fontFamily">@font/apercu_regular_pro</item>
+  </style>
+
 
 </resources>
