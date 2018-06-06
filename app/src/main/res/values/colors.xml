@@ -3,7 +3,9 @@
   <color name="colorDark">#222222</color>
   <color name="colorGrey">#6a6a6a</color>
   <color name="colorLightGrey">#c2c2c2</color>
+  <color name="colorWhite">#ffffff</color>
   <color name="colorRed">#ff465c</color>
   <color name="colorYellow">#ffbb39</color>
+  <color name="colorOrange">#ffa14d</color>
   <color name="colorBlue">#5746ff</color>
 </resources>
