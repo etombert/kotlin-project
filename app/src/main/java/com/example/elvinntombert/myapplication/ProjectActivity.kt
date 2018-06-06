@@ -12,7 +12,7 @@ class ProjectActivity : AppCompatActivity() {
     setContentView(R.layout.activity_project)
 
     button.setOnClickListener{
-      var intent = Intent(this,Home::class.java)
+      var intent = Intent(this,HomeActivity::class.java)
       startActivity(intent)
     }
   }
