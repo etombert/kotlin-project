@@ -64,7 +64,7 @@
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
-                    android:layout_height="35dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="200dp"
                     android:gravity="center"
                     android:text="John Doe"
@@ -104,7 +104,10 @@
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="33dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginEnd="81dp"
                         android:layout_marginLeft="81dp"
+                        android:layout_marginRight="81dp"
                         android:layout_marginStart="81dp"
                         android:layout_marginTop="10dp"
                         android:gravity="center"
@@ -112,6 +115,8 @@
                         android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/textView14"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -121,9 +126,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="13dp"
                         android:layout_marginEnd="61dp"
-                        android:layout_marginLeft="60dp"
+                        android:layout_marginLeft="61dp"
                         android:layout_marginRight="61dp"
-                        android:layout_marginStart="60dp"
+                        android:layout_marginStart="61dp"
                         android:text="EVENEMENTS"
                         android:textColor="#99ffffff"
                         android:textSize="11sp"
@@ -163,7 +168,10 @@
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="33dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginEnd="81dp"
                         android:layout_marginLeft="81dp"
+                        android:layout_marginRight="81dp"
                         android:layout_marginStart="81dp"
                         android:layout_marginTop="10dp"
                         android:gravity="center"
@@ -171,6 +179,8 @@
                         android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/textView14"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -197,7 +207,7 @@
 
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="291dp"
+                android:layout_height="wrap_content"
                 android:background="#f1f1f1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -351,7 +361,7 @@
                         android:layout_marginLeft="23dp"
                         android:layout_marginStart="23dp"
                         android:layout_marginTop="16dp"
-                        android:text="Modifier le profil"
+                        android:text="Paramètres"
                         android:textColor="#5e5e5e"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
