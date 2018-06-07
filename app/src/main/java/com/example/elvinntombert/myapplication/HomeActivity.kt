@@ -15,10 +15,10 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val events = arrayListOf<Event>()
-        events.add(Event("Lorem ipsum dolor sit amlet", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€","1"))
-        events.add(Event("Lorem ipsum dolor sit amlet", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€","2"))
-        events.add(Event("Lorem ipsum dolor sit amlet", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€","3"))
-        events.add(Event("Lorem ipsum dolor sit amlet", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€","4"))
+        events.add(Event("Le Louvre", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€", "Tourisme","1"))
+        events.add(Event("Disneyland Paris 25ème anniversaire", "Rue de Ravoli, 75001 Paris","21 juin - 10h30", "30€", "Loisir","2"))
+        events.add(Event("Parc Astérix", "Rue de Ruvoli, 75001 Paris","23 juin - 11h30", "50€", "Loisir","3"))
+        events.add(Event("Un test au pif", "Rue de Rovoli, 75001 Paris","20 juin - 12h30", "40€", "Test","4"))
 
         var linearLayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
