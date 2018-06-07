@@ -31,7 +31,6 @@
             android:layout_marginStart="2dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:paddingLeft="40dp"
             android:text="Name"
             android:textColor="#ffffff"
             app:layout_constraintBottom_toBottomOf="parent"
