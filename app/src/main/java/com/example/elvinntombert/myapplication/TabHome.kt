@@ -56,8 +56,6 @@ class TabHome : Fragment() {
             val event = item.event
             val intent = context?.let { EventDetailActivity.newIntent(it, event) }
             startActivity(intent)
-//            if(context != null){
-//            }
             true // on a consommé le tap sur le cellule
         }
     }
