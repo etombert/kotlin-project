@@ -12,7 +12,7 @@ class ProjectActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_project)
 
-    button.setOnClickListener{
+      already_account.setOnClickListener{
       var intent = Intent(this,HomeActivity::class.java)
       startActivity(intent)
     }
