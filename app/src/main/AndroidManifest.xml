@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".EventDetailActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".EventDetailActivity" />
+        <activity
+            android:name=".HomeTabActivity"
+            android:label="@string/title_activity_home_tab"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
