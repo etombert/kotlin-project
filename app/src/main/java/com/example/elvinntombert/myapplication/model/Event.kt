@@ -7,13 +7,14 @@ import android.os.Parcelable
  * Created by artikodin on 06/06/18.
  */
 
-class Event (var title: String, var address: String, var date: String, var price: String, var id: String): Parcelable {
+class Event (var title: String, var address: String, var date: String, var price: String, var type: String, var id: String): Parcelable {
     constructor(parcel: Parcel) : this(
             parcel.readString(),
             parcel.readString(),
             parcel.readString(),
             parcel.readString(),
-            parcel.readString()) {
+            parcel.readString(),
+            parcel.readString()){
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
@@ -21,6 +22,7 @@ class Event (var title: String, var address: String, var date: String, var price
         parcel.writeString(address)
         parcel.writeString(date)
         parcel.writeString(price)
+        parcel.writeString(type)
         parcel.writeString(id)
     }
 

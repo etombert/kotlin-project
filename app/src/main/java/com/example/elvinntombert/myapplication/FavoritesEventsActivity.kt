@@ -8,24 +8,22 @@ import com.example.elvinntombert.myapplication.model.Event
 import com.mikepenz.fastadapter.commons.adapters.FastItemAdapter
 import kotlinx.android.synthetic.main.activity_home.*
 
+class FavoritesEventsActivity : AppCompatActivity() {
 
-class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_favorites_events)
 
-        val events = arrayListOf<Event>()
-        events.add(Event("Le Louvre", "Rue de Rivoli, 75001 Paris","22 juin - 9h30", "25€", "Tourisme","1"))
-        events.add(Event("Disneyland Paris 25ème anniversaire", "Rue de Ravoli, 75001 Paris","21 juin - 10h30", "30€", "Loisir","2"))
-        events.add(Event("Parc Astérix", "Rue de Ruvoli, 75001 Paris","23 juin - 11h30", "50€", "Loisir","3"))
-        events.add(Event("Un test au pif", "Rue de Rovoli, 75001 Paris","20 juin - 12h30", "40€", "Test","4"))
+        val favoriteEvents = arrayListOf<Event>()
+        favoriteEvents.add(Event("Disneyland Paris 25ème anniversaire", "Rue de Ravoli, 75001 Paris","21 juin - 10h30", "30€", "Loisir","0"))
+        favoriteEvents.add(Event("Parc Astérix", "Rue de Ruvoli, 75001 Paris","23 juin - 11h30", "50€", "Loisir","1"))
 
         var linearLayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         eventRecyclerView.layoutManager = linearLayoutManager
         val adapter = FastItemAdapter<EventItem>()
 
-        adapter.add(events.map{ EventItem(it)})
+        adapter.add(favoriteEvents.map{ EventItem(it) })
 
         // On lie le recyclerView à l'adaptateur
         eventRecyclerView.adapter = adapter

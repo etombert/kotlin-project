@@ -3,6 +3,7 @@ package com.example.elvinntombert.myapplication
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.elvinntombert.myapplication.R.id.button
 import kotlinx.android.synthetic.main.activity_project.*
 
 class ProjectActivity : AppCompatActivity() {
