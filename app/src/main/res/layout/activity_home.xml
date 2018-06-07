@@ -54,24 +54,25 @@
         <android.support.design.widget.TabItem
             android:id="@+id/tabHome"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="tabHom" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/tabCalendar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tzbCalendar" />
+            android:layout_height="match_parent"
+            android:text="tabCalendar" />
 
         <android.support.design.widget.TabItem
+            android:id="@+id/tabFavorite"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="tabFavorite" />
 
         <android.support.design.widget.TabItem
-            android:id="@+id/tabItem"
+            android:id="@+id/tabProfil"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="tabProfil" />
     </android.support.design.widget.TabLayout>
 
