@@ -25,8 +25,13 @@ class EventDetailActivity : AppCompatActivity() {
 
 
         buttonR.setOnClickListener {
-            var intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
+        }
+
+        back_button.setOnClickListener {
+            val intent2 = Intent(this, HomeActivity::class.java)
+            startActivity(intent2)
         }
     }
 }
